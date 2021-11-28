@@ -4,7 +4,7 @@
 
 npm install
 
-# following env varible need to be configured before running the project
+# following env variable need to be configured before running the project
 
 DB_USERNAME=
 DB_PASSWORD=
