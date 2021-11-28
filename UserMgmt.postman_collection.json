@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "2be3ea7a-8ac1-42dc-a16b-752ab29a58dc",
+		"name": "UserMgmt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:6001/api/product/619d1c0a479b02485c305c77",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "4fcf3f78138f61fe6273dbd1d6c05f15e30496d7a085919bbcdcf11f271dcecfb564cd09ae8877ede8f0b29ede2a1cbfc5e3678537f2a441c5f5001e5631c494408d20e84e287eeaf067a72a83410f5b5875de8960bad78f358eb5220984b6f25601b1e78b863de8c3363b4e6e7b75c50f8457bd5a0c5023b871b3e60af4dcd2809e080c6abf95a2fea56a11031a4f7f867b06108409550296e796433777312670881db23f59c96369388eee081ea95b079760648d7d407a9ad375ef9500c06e06728b38ac30fc1a2de77f68b78bb471e26f30305f9438b2645f7fba41668183",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"old_password\":\"riyaj3111@gmail.com\",\n    \"new_password\":\"1234567\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6001/api/user/reset-password/61a25432e8a893fe9fd75167",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"reset-password",
+						"61a25432e8a893fe9fd75167"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/product/619d1c0a479b02485c305c77",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "4fcf3f78138f61fe6273dbd1d6c05f15e30496d7a085919bbcdcf11f271dcecfb564cd09ae8877ede8f0b29ede2a1cbfc5e3678537f2a441c5f5001e5631c494408d20e84e287eeaf067a72a83410f5b5875de8960bad78f358eb5220984b6f25601b1e78b863de8c3363b4e6e7b75c50f8457bd5a0c5023b871b3e60af4dcd2809e080c6abf95a2fea56a11031a4f7f867b06108409550296e796433777312670881db23f59c96369388eee081ea95b079760648d7d407a9ad375ef9500c06e06728b38ac30fc1a2de77f68b78bb471e26f30305f9438b2645f7fba41668183",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:6001/api/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/product/619d1c0a479b02485c305c77",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "4fcf3f78138f61fe6273dbd1d6c05f15e30496d7a085919bbcdcf11f271dcecfb564cd09ae8877ede8f0b29ede2a1cbfc5e3678537f2a441c5f5001e5631c494408d20e84e287eeaf067a72a83410f5b5875de8960bad78f358eb5220984b6f25601b1e78b863de8c3363b4e6e7b75c50f8457bd5a0c5023b871b3e60af4dcd2809e080c6abf95a2fea56a11031a4f7f867b06108409550296e796433777312670881db23f59c96369388eee081ea95b079760648d7d407a9ad375ef9500c06e06728b38ac30fc1a2de77f68b78bb471e26f30305f9438b2645f7fba41668183",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\":\"suraj\",\n    \"last_name\":\"mulla\",\n    \"email\":\"riyaj3111@gmail.com\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6001/api/user/61a31b2eab9f82702c4f8752",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"61a31b2eab9f82702c4f8752"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/product/619d1c0a479b02485c305c77",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "4fcf3f78138f61fe6273dbd1d6c05f15e30496d7a085919bbcdcf11f271dcecfb564cd09ae8877ede8f0b29ede2a1cbfc5e3678537f2a441c5f5001e5631c494408d20e84e287eeaf067a72a83410f5b5875de8960bad78f358eb5220984b6f25601b1e78b863de8c3363b4e6e7b75c50f8457bd5a0c5023b871b3e60af4dcd2809e080c6abf95a2fea56a11031a4f7f867b06108409550296e796433777312670881db23f59c96369388eee081ea95b079760648d7d407a9ad375ef9500c06e06728b38ac30fc1a2de77f68b78bb471e26f30305f9438b2645f7fba41668183",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:6001/api/user/61a31b2eab9f82702c4f8752",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"61a31b2eab9f82702c4f8752"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/user/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "dsd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"riyaj3221@gmail.com\",\n    \"password\": \"123456789\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6001/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/user/register",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "4fcf3f78138f61fe6273dbd1d6c05f15e30496d7a085919bbcdcf11f271dcecfb564cd09ae8877ede8f0b29ede2a1cbfc5e3678537f2a441c5f5001e5631c494408d20e84e287eeaf067a72a83410f5b5875de8960bad78f358eb5220984b6f25601b1e78b863de8c3363b4e6e7b75c50f8457bd5a0c5023b871b3e60af4dcd2809e080c6abf95a2fea56a11031a4f7f867b06108409550296e796433777312670881db23f59c96369388eee081ea95b079760648d7d407a9ad375ef9500c06e06728b38ac30fc1a2de77f68b78bb471e26f30305f9438b2645f7fba41668183",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "profile_img",
+							"type": "file",
+							"src": "/home/neosoft/Downloads/download.jpeg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6001/api/user/profile-pic/61a31b2eab9f82702c4f8752",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"profile-pic",
+						"61a31b2eab9f82702c4f8752"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:6001/api/user/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "dsd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\":\"riyaj mulla\",\n    \"last_name\":\"mulla\",\n    \"email\":\"riyaj3221@gmai\",\n    \"password\":\"123456789\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6001/api/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
